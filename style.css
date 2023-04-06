@@ -1,0 +1,45 @@
+
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+background-color: lightblue;
+}  
+header {  
+background-color: orange;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+border-radius:25px ;
+}  
+header * {  
+    display:inline;  
+    
+    
+    } 
+ 
+header li {  
+margin: 20px; 
+}  
+header li a {  
+color: blue;  
+text-decoration:none;
+
+
+}  
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+  }
+  header li a:hover {
+    color: rgb(138, 10, 10);
+  }
